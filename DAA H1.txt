@@ -1,0 +1,68 @@
+==================Bil 3 dan Bil 4======================
+Algoritma:
+Step 1 Bil 3 dan 4, masing masing akan ditambahakan dengan bilangan itu sendiri yang akan menjadikannya bilangan kelipatan
+Step 2 Jika bil1 lebih kecil dari bil2 maka kembali ke No1
+Step 3 Hasil dari bil1 dan bil2 yang sama maka akan dihitung kelipatan terkecilnya
+
+Pseudocode:
+While bil1= bil2 do
+if bil1< bil2 then
+hasil1 = bil1+bil1
+else bil1> bil2 then
+hasil2 = bil2 + bil2
+return 0;
+
+================Nilai dari 3 dan 4=================
+Algoritma:
+Step 1 jika n =3, return nilai 4 sebagai hasil dan stop. jika tidak, kembali ke Step 2.
+Step 2 bagi nilai 4 dengan 3, masukan nilai sisanya ke r.
+Step 3 Masukan nilai 3 ke mn dan nilai r ke . kembali ke Step 1.
+
+Pseudocode:
+While n = 0 do
+r <- m mod n
+m <- 3 = 3,6,9,12,15...
+n <- 4 = 4,8,12,16,20 ...
+return m
+
+=================== Variable x dan y ======================
+Fungsi untuk menukar dua variabel x dan y:
+define swap(x,y)
+buffer = x
+x = y
+y = buffer
+
+===================== Luas Persegi Panjang =======================
+
+Algoritma : 1. Masukkan panjangnya 25
+            2. Masukkan lebarnya 3
+            3. Luas Persegi panjang adalah panjang x lebar
+                      
+
+Pseudocode : panjang = 25
+             lebar   = 3
+             Luas = panjang x lebar
+
+================= Volume Tabung ===========================
+
+Algoritma : 1. Masukkan jari2 =3
+            2. Masukkan tinggi =5
+            3. V Tabung 3.14 x  Jari2 x Jari2 x tinggi
+                      
+================= Volume Kerucut ===========================
+
+Algoritma : 1.maasukan diameter =5
+            2. Masukkan tinggi =4
+            3. V keurucut 1/3 x setJari2 x setJari2 x tinggi
+                      
+
+Pseudocode : diameter = 5
+             tinggi = 4
+             V kerucut = 1/3 x 2,5 x 2,5 x 4 
+
+
+
+                           
+
+
+                           
